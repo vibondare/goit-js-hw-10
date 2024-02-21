@@ -1,0 +1,39 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  margin-top: 24px;
+}
+
+.delay-input {
+  width: 356px;
+  padding: 0;
+  height: 40px;
+  outline: none;
+  margin-top: 8px;
+}
+
+fieldset {
+  max-width: 360px;
+  height: 40px;
+  margin-top: 16px;
+  margin-bottom: 24px;
+  outline: none;
+  display: block;
+}
+
+fieldset label {
+  margin-right: 48px;
+}
+
+.form button {
+  max-width: 200px;
+  cursor: pointer;
+  background-color: #4E75FF;
+  color: #FFFFFF;
+}

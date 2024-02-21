@@ -1,0 +1,50 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    color: #989898;
+    background-color: #CFCFCF;
+    cursor: not-allowed;
+}
+
+.active-button {
+    color: #FFFFFF;
+    background-color: #4E75FF;
+    cursor: pointer;
+}
+
+.active-button:hover {
+    background-color: #6C8CFF;
+}
+
+#datetime-picker {
+    margin-top: 24px;
+    padding: 8px 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 4px;
+    border: 1px solid #808080;
+}
+
+.timer {
+  display: flex;
+  gap: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.value {
+  font-size: 48px;
+}
